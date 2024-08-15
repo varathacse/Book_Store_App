@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/*----------------------------Nav bar----------------------------*/
+#nav {
+  height: 70px;
+  width: 100%;
+  box-shadow: 0px 0px 1px grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#nav > article {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* ----------------------------Nav bar logo---------------------------- */
+
+#nav > article > .Logo {
+  height: 70px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logoblock > p {
+  padding-top: 15px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(45, 136, 226);
+}
+
+/* ----------------------------Nav bar Menu----------------------------*/
+
+#nav > article > .Menu {
+  height: 70px;
+  width: 60%;
+  display: flex;
+  justify-content: right;
+
+
+}
+#Menu {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 15px;
+}
+#Menu > div > a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(115, 121, 128);
+  font-weight: 350;
+  font-family: Poppins, sans-serif;
+}
+
+#nav > article > .Btn {
+  height: 70px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#butt > button {
+  width: 140px;
+  height: 35px;
+  background-color: rgb(62, 149, 236);
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#butt > button > svg {
+  width: 25px;
+  height: 20px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+
+
+
+
+
+
+/* ------------------------------- Book ------------------------------- */
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.bookCard {
+  margin: 10px 10px 10px 10px;
+  width: 220px;
+  height: 350px;
+  background-color: rgb(219,243,255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  overflow: hidden; /* Ensure content doesn't overflow the card */
+}
+
+.bookCard img {
+  width: 150px;
+  height: 180px;
+  margin: 10px auto 0; 
+  display: block;
+  box-shadow: 0px 0px 15px #a8e2ff;
+}
+
+.bookDetails {
+  padding: 10px; /* Combine padding properties */
+  text-align: left;
+}
+
+.bookDetails p {
+  margin: 0; /* Remove default margin */
+  text-align: left;
+  padding-top: 5px; /* Adjust as needed */
+}
+
+
+/* -------------------------------------Book------------------------------------ */
+
+
+.main1{
+  width:60%;
+  margin-left:22%;
+  background-color:#dbf3ff;
+  padding:0px 30px 20px 30px;
+ }
+
+.main{
+  width: 90%;
+  margin-left: 5%;
+  
+}
+.main2{
+  width: 65%;
+  margin-left: 20%;
+  
+}
+.custom-table{
+  background-color: white;
+}
+
+.login{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.log{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+  height: 300px;
+  width: 35%;
+  padding: 20px 20px 20px 20px;
+}
+
